@@ -1,10 +1,11 @@
+import featureImage from '/src/assets/img/Feature Image.png'
 
 const Appss = () => {
     return (
         <div className="bg-gradient-to-r from-blue-800 via-blue-900 to-blue-900 h-80vh px-12 lg:px-24 pt-20">
             <div className="lg:flex lg:justify-between lg:items-center lg:space-x-24 cursor-pointer">
                 <div className="hidden md:block">
-                    <img src="/src/assets/img/Feature Image.png" alt="" className="lg:w-[2200px] md:w-[800px]"/>
+                    <img src={featureImage} alt="" className="lg:w-[2200px] md:w-[800px]"/>
                 </div>
 
                 <div className="sm:space-y-10 space-y-5 lg:space-y-2">

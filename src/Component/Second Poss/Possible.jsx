@@ -1,3 +1,4 @@
+import rectangle from '/src/assets/img/Rectangle 17 (1).png'
 
 const Possible = () => {
     return (
@@ -16,28 +17,28 @@ const Possible = () => {
 
                     <div className="space-y-8 text-white">
                         <div>
-                            <img src="/src/assets/img/Rectangle 17.png" alt="" className="mb-2" />
+                            <img src={rectangle} alt="" className="mb-2" />
                             <p>
                                 Maintain a conversational tone
                             </p>
                         </div>
 
                         <div>
-                            <img src="/src/assets/img/Rectangle 17.png" alt="" className="mb-2" />
+                            <img src={rectangle} alt="" className="mb-2" />
                             <p>
                                 Provide accurate and helpful information
                             </p>
                         </div>
 
                         <div>
-                            <img src="/src/assets/img/Rectangle 17.png" alt="" className="mb-2" />
+                            <img src={rectangle} alt="" className="mb-2" />
                             <p>
                                 Acknowledge user inputs
                             </p>
                         </div>
 
                         <div>
-                            <img src="/src/assets/img/Rectangle 17.png" alt="" className="mb-2" />
+                            <img src={rectangle} alt="" className="mb-2" />
                             <p>
                                 Avoid technical glitches
                             </p>
@@ -46,28 +47,28 @@ const Possible = () => {
 
                     <div className="space-y-8 text-sm text-white">
                         <div>
-                            <img src="/src/assets/img/Rectangle 17.png" alt="" className="mb-2" />
+                            <img src={rectangle} alt="" className="mb-2" />
                             <p>
                                 Foster a friendly and approachable atmosphere in interactions, making users feel comfortable and encouraged to engage further. 
                             </p>
                         </div>
                         
                         <div>
-                            <img src="/src/assets/img/Rectangle 17.png" alt="" className="mb-2" />
+                            <img src={rectangle} alt="" className="mb-2" />
                             <p>
                                 Ensure that the response are relevant and reliable, offering valuables insights or assistance to the user&rsquo;s queries. 
                             </p>
                         </div>
 
                         <div>
-                            <img src="/src/assets/img/Rectangle 17.png" alt="" className="mb-2" />
+                            <img src={rectangle} alt="" className="mb-2" />
                             <p>
                                 Demonstrative active listening by acknowledging and addressing the user&rsquo;s concerns or questions promptly.
                             </p>
                         </div>
                             
                         <div>
-                            <img src="/src/assets/img/Rectangle 17.png" alt="" className="mb-2" />
+                            <img src={rectangle} alt="" className="mb-2" />
                             <p>
                                 Minimize errors or technical issues to enhance the user experience and prevent frustration or distrust.
                             </p>

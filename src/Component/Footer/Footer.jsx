@@ -1,3 +1,4 @@
+import gpt from '/src/assets/img/GPT-3.svg'
 
 const Footer = () => {
     return (
@@ -16,7 +17,7 @@ const Footer = () => {
                 <div>
                     <div className="px-12 md:grid md:grid-cols-4 text-center justify-between items-center space-y-12 lg:space-x-10 md:space-x-5 text-white">
                         <div className="flex flex-col justify-center items-center space-y-3">
-                            <img src="/src/assets/img/GPT-3.svg" alt="" className="w-[90px]"/>
+                            <img src={gpt} alt="" className="w-[90px]"/>
                             <p className="text-sm">Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved</p>
                         </div>
 

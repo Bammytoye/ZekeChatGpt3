@@ -1,3 +1,5 @@
+import rectangle from '/src/assets/img/Rectangle 17 (1).png'
+
 
 const Possibilities = () => {
     return (
@@ -6,7 +8,7 @@ const Possibilities = () => {
                 <div className="flex flex-col p-14">
                     <div className="md:flex justify-between w-full space-y-5 md:space-x-48 text-justify">
                         <div className="lg:w-1/4">
-                            <img src="/src/assets/img/Rectangle 17.png" alt="" className="mb-2" />
+                            <img src={rectangle} alt="" className="mb-2" />
                             <h3 className="text-white">What is GPT-3</h3>
                         </div>
 
@@ -30,21 +32,21 @@ const Possibilities = () => {
 
                         <div className="md:flex space-y-5 md:space-x-10 md:justify-between md:items-center">
                             <div>
-                                <img src="/src/assets/img/Rectangle 17.png" alt="" className="mb-3"/>
+                                <img src={rectangle} alt="" className="mb-3"/>
                                 <h2 className="text-white text-md">
                                     Chat Bots
                                 </h2>
                             </div>
 
                             <div>
-                                <img src="/src/assets/img/Rectangle 17.png" alt="" className="mb-3" />
+                                <img src={rectangle} alt="" className="mb-3" />
                                 <h2 className="text-white text-md">
                                     Knowledge Base
                                 </h2>
                             </div>
 
                             <div>
-                                <img src="/src/assets/img/Rectangle 17.png" alt="" className="mb-3" />
+                                <img src={rectangle} alt="" className="mb-3" />
                                 <h2 className="text-white text-md">
                                     Education
                                 </h2>

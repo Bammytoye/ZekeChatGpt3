@@ -1,6 +1,7 @@
 import menu from '/src/assets/menu-60.png'
 import close from '/src/assets/clsoemenu.png'
 import { useState } from 'react'
+import gpt from '/src/assets/img/GPT-3.svg'
 
 const Navbar = () => {
     const [toggle, setToggle] = useState(false)
@@ -12,7 +13,7 @@ const Navbar = () => {
                 <div className="flex items-center space-x-8">
                     <div>
                         <a href="#">
-                            <img src="/src/assets/img/GPT-3.svg" alt="" className="w-[90px]" />
+                            <img src={gpt} alt="" className="w-[90px]" />
                         </a>
                     </div>
 

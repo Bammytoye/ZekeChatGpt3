@@ -1,3 +1,8 @@
+import rect1 from '/src/assets/img/Rectangle 22 (2).png'
+import rect2 from '/src/assets/img/Rectangle 22 (3).png'
+import rect3 from '/src/assets/img/Rectangle 22 (1).png'
+import rect4 from '/src/assets/img/Rectangle 22 (4).png'
+import rect5 from '/src/assets/img/Rectangle 22.png'
 
 const Blogging = () => {
     return (
@@ -11,7 +16,7 @@ const Blogging = () => {
 
                 <div className="md:grid md:grid-cols-2 lg:grid-cols-3 md:space-x-10 space-y-8 gap-5 mb-7">
                     <div className="flex flex-col border border-black rounded-lg bg-[#14143a] cursor-pointer">
-                        <img src="/src/assets/img/Rectangle 22 (2).png" alt="" className="w-full" />
+                        <img src={rect1} alt="" className="w-full" />
                         <p className="p-4 text-[10px] text-white">Feb 22, 2024</p>
                         <p className="px-4 text-white uppercase hover:underline ">
                             Language Generation
@@ -25,7 +30,7 @@ const Blogging = () => {
                     </div>
 
                     <div className="flex flex-col border border-black rounded-lg bg-[#14143a] cursor-pointer">
-                        <img src="/src/assets/img/Rectangle 22 (3).png" alt="" className="w-full"/>
+                        <img src={rect2} alt="" className="w-full"/>
                         <p className="p-4 text-[10px] text-white">Feb 22, 2024</p>
                         <p className="px-4 text-white uppercase hover:underline ">
                             Massive Scale 
@@ -38,7 +43,7 @@ const Blogging = () => {
                     </div>
 
                     <div className="flex flex-col border border-black rounded-lg bg-[#14143a] cursor-pointer">
-                        <img src="/src/assets/img/Rectangle 22 (1).png" alt="" />
+                        <img src={rect3} alt="" />
                         <p className="p-4 text-[10px] text-white">Feb 22, 2024</p>
                         <p className="px-4 text-white uppercase hover:underline ">
                             Zero-shot and Few-shot Learning
@@ -52,7 +57,7 @@ const Blogging = () => {
                     </div>
 
                     <div className="flex flex-col border border-black rounded-lg bg-[#14143a] cursor-pointer">
-                        <img src="/src/assets/img/Rectangle 22 (4).png" alt="" className="h-full"/>
+                        <img src={rect4} alt="" className="h-full"/>
                         <p className="p-4 text-[10px] text-white">Feb 22, 2024</p>
                         <p className="px-4 text-white uppercase hover:underline ">
                             Versatility
@@ -66,7 +71,7 @@ const Blogging = () => {
                     </div>
 
                     <div className="flex flex-col border border-black rounded-lg bg-[#14143a] cursor-pointer">
-                        <img src="/src/assets/img/Rectangle 22.png" alt="" />
+                        <img src={rect5} alt="" />
                         <p className="p-4 text-[10px] text-white">Feb 22, 2024</p>
                         <p className="px-4 text-white uppercase hover:underline ">
                             Contextual Understanding 

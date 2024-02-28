@@ -1,3 +1,6 @@
+import signup1 from '/src/assets/img/Signup (1).png'
+import header from '/src/assets/img/Header Illustration.png'
+import ComapanyLogo from '/src/assets/img/Comapnies Logo.png'
 
 const About = () => {
     return (
@@ -19,16 +22,16 @@ const About = () => {
                         </button>
                     </div>
 
-                    <img src="/src/assets/img/Signup (1).png" alt="" />
+                    <img src={signup1} alt="" />
                 </div>
             
                 <div className="hidden md:block lg:mt-10">
-                    <img src="/src/assets/img/Header Illustration.png" alt=""  className="w-[600px]"/>
+                    <img src={header} alt=""  className="w-[600px]"/>
                 </div>
             </div>
 
             <div className="flex justify-center items-center pt-10">
-                <img src="/src/assets/img/Comapnies Logo.png" alt="" className="w-[800px]" />
+                <img src={ComapanyLogo} alt="" className="w-[800px]" />
             </div>
         </div>
     )
