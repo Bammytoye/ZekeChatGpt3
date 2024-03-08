@@ -4,7 +4,7 @@ const Appss = () => {
     return (
         <div className="bg-gradient-to-r from-blue-800 via-blue-900 to-blue-900 h-80vh px-12 lg:px-24 pt-20">
             <div className="lg:flex lg:justify-between lg:items-center lg:space-x-24 cursor-pointer">
-                <div className="hidden md:block">
+                <div className="flex justify-center items-center">
                     <img src={featureImage} alt="" className="lg:w-[2200px] md:w-[800px]"/>
                 </div>
 
@@ -23,15 +23,15 @@ const Appss = () => {
                 </div>
             </div>
 
-            <div className="hidden lg:block p-3 bg-gradient-to-r from-blue-800 via-yellow-900 to-red-900 rounded-full">
+            <div className="mt-3 p-3 bg-gradient-to-r from-blue-800 via-yellow-900 to-red-900 rounded-full">
                 <div className="flex justify-between items-center px-4">
                         <div>
-                            <p className="text-sm text-white">Request Early Access to Get Started</p>
-                            <p className="text-xl">Register today & start exploring the endless possibilities.</p>
+                            <p className="text-[10px] md:text-sm md:text-white">Request Early Access to Get Started</p>
+                            <p className="text-[12px] md:text-xl">Register today & start exploring the endless possibilities.</p>
                         </div>
 
                         <div>
-                            <button className="rounded-full px-5 py-2 bg-gray-900 text-white">Get Started</button>
+                            <button className="text-[9px] md:text-xl rounded-full px-5 py-2 bg-gray-900 text-white">Get Started</button>
                         </div>
                     </div>
             </div>

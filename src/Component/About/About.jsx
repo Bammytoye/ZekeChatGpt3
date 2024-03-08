@@ -4,8 +4,8 @@ import ComapanyLogo from '/src/assets/img/Comapnies Logo.png'
 
 const About = () => {
     return (
-        <div className="bg-gradient-to-r from-blue-800 via-blue-900 to-blue-900 h-80vh px-12 pt-24 sm:pt-24 md:pt-16 lg:px-24">
-            <div className="flex justify-between items-center">
+        <div className="bg-gradient-to-r from-blue-800 via-blue-900 to-blue-900 h-80vh px-12 pt-24 sm:pt-24 md:px-24">
+            <div className="lg:flex lg:justify-between lg:items-center">
                 <div className="lg:w-[450px] space-y-7">
                     <p className="text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-red-800 via-red-300 to-blue-400">
                         Let&rsquo;s Build Something Amazing With Gpt-3 Open AI   
@@ -25,7 +25,7 @@ const About = () => {
                     <img src={signup1} alt="" />
                 </div>
             
-                <div className="hidden md:block lg:mt-10">
+                <div className="lg:mt-10 flex justify-center items-center">
                     <img src={header} alt=""  className="w-[600px]"/>
                 </div>
             </div>

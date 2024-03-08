@@ -17,7 +17,7 @@ const Navbar = () => {
                         </a>
                     </div>
 
-                    <div className="md:flex hidden md:space-x-7 md:text-sm">
+                    <div className="lg:flex hidden lg:space-x-7 lg:text-sm">
                         <a href="#" className="hover:underline">Home</a>
                         <a href="#" className="hover:underline">What is GPT?</a>
                         <a href="#" className="hover:underline">Open AI</a>
@@ -26,17 +26,17 @@ const Navbar = () => {
                     </div>
                 </div>
 
-                <div className="hidden md:flex md:space-x-4 md:text-sm">
+                <div className="hidden lg:flex lg:space-x-4 lg:text-sm">
                     <button className="border-b-2 rounded-md border-r-2 border-gray-600 px-4 py-1">Sign In</button>
                     <button className="bg-red-500 px-4 py-1 rounded-md">Sign Up</button>
                 </div>
 
-                <div className='md:hidden' onClick={handleClick}>
+                <div className='lg:hidden' onClick={handleClick}>
                     <img src={toggle?close:menu} alt="" className='w-[30px]'/>
                 </div>
             </div>
 
-            <div className={toggle?'flex flex-col justify-center items-center space-y-4 md:hidden' : 'hidden'}>
+            <div className={toggle?'flex flex-col justify-center items-center space-y-4 lg:hidden' : 'hidden'}>
                 <div className="flex text-white flex-col justify-center items-center space-y-3">
                     <a href="#" className="hover:border-b-2 border-white">Home</a>
                     <a href="#" className="hover:border-b-2 border-white">What is GPT?</a>
